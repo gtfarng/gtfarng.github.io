@@ -62,6 +62,13 @@ p {
   color:191970;
   font-family: Courier New;
 }
+
+#story{
+  text-align: center;
+  font-size: 30px;
+  color:191970;
+  font-family: Courier New;
+}
 .table{
   text-align: center;
   font-size: 18px;
@@ -81,6 +88,10 @@ p {
 
 .table2{
   text-align:left
+}
+
+.table3{
+  text-align:right
 }
 
 
