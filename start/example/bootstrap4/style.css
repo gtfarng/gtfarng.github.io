@@ -64,8 +64,8 @@ p {
 }
 
 #story{
-  text-align: center;
-  font-size: 30px;
+  text-align: justify;
+  font-size: 25px;
   color:191970;
   font-family: Courier New;
 }
