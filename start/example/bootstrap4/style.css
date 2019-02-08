@@ -72,11 +72,15 @@ p {
 }
 .table1{
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   color:000080;
   font-family: Verdana;
   text-align:left
-   font-weight: bold;
+ 
+}
+
+.table2{
+  text-align:right
 }
 
 
