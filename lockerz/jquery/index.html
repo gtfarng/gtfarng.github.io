@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Start Bootstrap4</title>
+  <title>#GTfarng Home_jQuery</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
+
+  <script>
+$(document).ready(() =>
+{
+
+  $("#btn1-1").click(() =>
+  {
+    $("#div1").slideUp();
+  });
+
+  $("#btn1-2").click(() =>
+  {
+    $("#div1").slideDown();
+  });
+
+  $("#btn1-3").click(()=>
+  {
+    $("#div1").slideToggle();
+  });
+
+});
+</script>
+
+<script>
+$(document).ready(() =>
+{
+
+  $("#btn2-1").click(() =>
+  {
+    $("#div2").slideUp();
+  });
+
+  $("#btn2-2").click(() =>
+  {
+    $("#div2").slideDown();
+  });
+
+  
+});
+</script>
+
+
+<script>
+home=()=> 
+ {
+    alert('Welcome! to #GTfarng HOMEPAGE');
+ }
+ home();
+</script>
+
+<script> 
+$(document).ready(()=>
+{
+  $("#flip").click(()=>
+  {
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+
+
+
+
 </head>
 
 <body class="p-3 mb-2 bg-light text-dark">
+  <div>
 <div class="button" class="text-secondary">
 
 <button type="button" class="btn btn-primary"><a href="../html/index.html"><h5 class="bg-primary text-white">HTML
@@ -24,7 +88,8 @@
 
 <button type="button" class="btn btn-danger"><a href="../jquery/index.html"><h5 class="bg-danger text-white">jQuery
 </h5></button></a>
- </div>
+ </div></div>
+
 <!--
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-success">Success</button>
@@ -43,7 +108,15 @@
 
 <div class="row" align="center">
   <div class="col-sm-12"><h3><abbr title="#GTfarng">Mr.Jatupat Pannoi</abbr></h3></div>
-   <div class="col-sm-12"><h4><abbr title="Jatupat Pannoi"><a href="https://bit.ly/2RMkRpg">#GTfarng</a></abbr></h4></div>
+   <div class="col-sm-12"><h4><abbr title="Jatupat Pannoi"><a href="https://bit.ly/2RMkRpg">#GTfarng</a></abbr>
+   </h4><br>
+   <button  onclick="alert('Jatupat Pannoi');">Name</button>
+   <button  onclick="alert('#GTfarng');">Codename</button>
+   <button  onclick="alert('GTfarng@Gmail.com');">E-Mail</button>
+   <button  onclick="alert('098-2634274');">Phone</button>
+   <button  onclick="alert('https://gtfarng.github.io/lockerz');">Hostname</button>
+   </div>
+
 </div>
 
 <br>
@@ -67,9 +140,9 @@
     <div class="col-sm-2"></div>
     <div class="col-sm-8" align="center">
 
+<div id="flip"><h4 class="p-3 mb-2 bg-info text-white">Click to Show Table</h4></div>
 
-
-<table class="table table-bordered table-dark ">
+<table class="table table-bordered table-dark" id="panel" >
   <thead>
     <tr>
       <th scope="col" class="table3"><h4>Name:</h4></th>
@@ -150,7 +223,8 @@
     </div>
   </div>
 
-<div class="card-group">
+ <div id="div2">
+<div class="card-group" >
   <div class="card">
     <div class="row"><div class="col-sm-4">
     <img src="html.jpg" class="card-img-top" alt="HTML" width="50" height="50">
@@ -172,7 +246,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" >
   
   <div class="row"><div class="col-sm-3">
         <img src="bootstrap.png" class="card-img-top" alt="Bootstrap" width="50px" height="50px">
@@ -192,7 +266,9 @@
     <img src="jquere.png" class="card-img-top" alt="jQuere" width="50" height="50">
       </div><div class="col-sm-11"></div></div>
 
-    <div class="card-body">
+   
+
+    <div class="card-body" >
       <h5 class="card-title"><a href="../jquery/index.html">jQuere</a></h5>
 jQuery is a JavaScript library that allows web developers to add extra functionality to their websites. It is open source and provided for free under the MIT license. In recent years, jQuery has become the most popular JavaScript library used in web development..
       <p class="card-text">
@@ -201,12 +277,24 @@ jQuery is a JavaScript library that allows web developers to add extra functiona
     </div>
   </div>
 </div>
+</div>
 <div class="container" align="right">
-  <div class="jumbotron">
+ <input type="button" id="btn2-1" class="btn btn-danger" value="Hide">
+<input type="button" id="btn2-2" class="btn btn-warning" value="Show">
+</div>
+<div class="container" align="right">
+  <div class="jumbotron" id="div1">
+
     <h1>Mr.Jatupat Pannoi</h1> 
     <p>#GTfarng_Dev</p> 
+
   </div>
+  <input type="button" id="btn1-1" class="btn btn-danger" value="Hide">
+<input type="button" id="btn1-2" class="btn btn-warning" value="Show">
+<input type="button" id="btn1-3" class="btn btn-primary" value="Toggle">
 </div>
+
+
 
   <footer class="blockquote-footer">#GTfarng CoE#13</footer>
 </body>
