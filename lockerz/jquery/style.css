@@ -106,3 +106,53 @@ p {
   display: none;
 }
 
+#holder_swap{
+   margin:auto;
+   width: 519px;
+   margin-top:50px;
+   background-color:#FFF;      
+}
+/* css ส่วนกำหนดขอบเขตการแสดง  */
+.wrap_swap{
+   width: 519px;
+   height: 854px; 
+   color: #5A5858;
+   display: block;
+   font-family:tahoma, "Microsoft Sans Serif", sans-serif, Verdana;
+   font-size:12px;   
+}
+/* css ส่วนสำหรับหัวข้อ  */
+.heading{
+   border-bottom:1px black dotted;
+   margin:0;
+   padding:10px 0px 3px;
+   width: 519px;
+   height:16px;
+   clear: both;
+   color: #5A5858;
+   display: block;   
+   font-family:tahoma, "Microsoft Sans Serif", sans-serif, Verdana;
+   font-size:12px;
+   font-weight:bold;   
+   background-color:#FFF;      
+}
+/* css ส่วนสำหรับรายการแสดงแต่ละรายการ */
+.item_swap{
+   border-bottom:1px black dotted;
+   margin:0;
+   padding:10px 0px 3px;
+   width: 519px;
+   height:60px;
+   clear: both;
+   color: #5A5858;
+   display: block;   
+   font-family:tahoma, "Microsoft Sans Serif", sans-serif, Verdana;
+   font-size:12px;
+}
+.bg {
+   position:fixed; 
+   top:0; 
+   left:0; 
+   width:20%; 
+   height:20%;
+}
