@@ -26,12 +26,7 @@ $(document).ready(() =>
   {
     $("#div1").slideToggle();
   });
-});
-</script>
 
-<script>
-$(document).ready(() =>
-{
   $("#btn2-1").click(() =>
   {
     $("#div2").slideUp();
@@ -41,12 +36,7 @@ $(document).ready(() =>
   {
     $("#div2").slideDown();
   });
-});
-</script>
 
-<script>
-$(document).ready(() =>
-{
   $("#btn3-1").click(() =>
   {
     $("#div3").slideUp();
@@ -117,7 +107,7 @@ notifyMe =() =>
 }
 </script>
 
-<script type="text/javascript">
+<script>
 var delay = 5000; 
 var count = 19; 
 var showing = 10; 
@@ -148,6 +138,24 @@ $(() =>
 });
 </script>
 
+<script>
+  $(() =>  
+  {
+    var $images = $("#d1 > .c1 > a").clone();
+    var $length = $images.length;
+    var $imgShow = 0;
+
+    $("#d1 > .c1").html($("#d1 > .c1 > a:first")); //hide picture
+
+    $("#d1 > .c1 > a").click(function(event) 
+    {
+      $(this).children().attr("src",
+        $("img", $images).eq(++$imgShow % $length).attr("src"));
+      event.preventDefault();
+    });
+  });
+</script>
+
 </head>
 
 <body class="p-3 mb-2 bg-light text-dark">
@@ -167,17 +175,17 @@ $(() =>
 </h5></button></a>
 
 <button type="button" class="btn btn-outline-dark">
-  <a href="http://guess-game.ddns.net:3001">
+  <a href="https://counter-react-app-ba5bd.firebaseapp.com/">
   <h5>Counter-App
 </h5></button></a>
 
 <button type="button" class="btn btn-outline-dark">
-  <a href="http://guess-game.ddns.net:3002">
+  <a href="https://todo-react-app-8c02b.firebaseapp.com/">
   <h5>Todo-App
 </h5></button></a>
 
 <button type="button" class="btn btn-outline-dark">
-  <a href="http://guess-game.ddns.net:3003">
+  <a href="https://github-react-app-e7294.firebaseapp.com/">
   <h5>Github-API-App
     </h5></button></a>
 
@@ -211,6 +219,14 @@ $(() =>
    </div>
 
 </div>
+<br>
+<div id="d1" align="center" >
+        <div class="c1">
+                 <a href="#"><img src="./PSUs.png" border="0" height="150" width="200"></a>
+                 <a href="#"><img src="./coe.jpg" border="0" height="150" width="200"></a>
+                 <a href="#"><img src="./coc.png" border="0" height="150" width="200"></a>       
+        </div>
+     </div>
 
 <br>
 
