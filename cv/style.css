@@ -1,0 +1,273 @@
+body {
+  background: url('assets/img/398392.jpg') !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(119, 29, 29, 0.82);*/
+  align-items: center;
+  display: inline-flex;
+}
+h1, h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #FF4700;
+}
+
+a{
+    color: #FF4700 !important;
+    font-weight: 600;
+}
+
+.overlay h1 {
+  margin: auto;
+  text-transform: uppercase;
+  color: white;
+  font-size: 70px;
+  border: 10px solid white;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.18);
+  -webkit-box-shadow: 0px 0px 19px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 19px 8px rgba(0, 0, 0, 0.75);
+}
+.skills {
+  display: inline-flex !important;
+  width: 280px;
+}
+
+div#code {
+    float: right;
+}
+
+
+.section-one {
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  z-index: 100;
+  margin-top: -35px;
+  transform: skewY(-3deg);
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  padding-top: 50px;
+}
+.section-two {
+  width: 100%;
+  background-color: #FF4700;
+  height: 400px;
+  z-index: 100;
+  margin-top: -35px;
+  transform: skewY(2deg);
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  padding-top: 50px;
+}
+.section-three {
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  z-index: 100;
+  margin-top: -50px;
+  transform: skewY(-3deg);
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  padding-top: 50px;
+}
+.section-four {
+  width: 100%;
+  background-color: #FF4700;
+  height: 365px;
+  z-index: 100;
+  margin-top: -55px;
+  transform: skewY(1deg);
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  padding-top: 50px;
+}
+.textleft {
+  text-align: justify;
+}
+.one, .three {
+  transform: translateZ(0) skewY(3deg);
+  height: 300px;
+  width: 940px;
+  margin: auto;
+}
+.two, .four{
+  transform: skewY(-2deg);
+  height: 300px;
+  width: 940px;
+  margin: auto;
+}
+.one h1, .three h1 {
+  font-size: 48px;
+  color: #FF4700;
+  text-align: center
+}
+.power-grid {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4444+0,fff844+50,5aff44+100 */
+  background: #ff4444;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #ff4444 0%, #fff844 50%, #5aff44 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff4444 0%, #fff844 50%, #5aff44 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff4444 0%, #fff844 50%, #5aff44 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff4444', endColorstr='#5aff44', GradientType=1);
+  /* IE6-9 */
+  height: 10px;
+  border-radius: 4px;
+  width: 255px;
+}
+.list-h {
+  display: inline-block;
+  width: 100%;
+}
+.list-h .ui.list {
+  float: left;
+  margin: 0;
+  margin-right: 20px;
+}
+.in {
+  overflow: hidden;
+  height: 10px;
+  margin-top: -10px;
+}
+.w200 {
+  width: 255px;
+}
+.w180 {
+  width: 235px;
+}
+.w160 {
+  width: 215px;
+}
+.w140 {
+  width: 195px;
+}
+.w120 {
+  width: 175px;
+}
+.w100 {
+  width: 155px;
+}
+.w80 {
+  width: 125px;
+}
+.w40 {
+  width: 105px;
+}
+.power-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d0c0c+0,4b4f15+50,205b18+100 */
+  background: #2d0c0c;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #2d0c0c 0%, #4b4f15 50%, #205b18 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #2d0c0c 0%, #4b4f15 50%, #205b18 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2d0c0c 0%, #4b4f15 50%, #205b18 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2d0c0c', endColorstr='#205b18', GradientType=1);
+  /* IE6-9 */
+  height: 10px;
+  width: 255px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, .4);
+}
+.two h1, .four h1{
+  font-size: 48px;
+  color: white;
+  text-align: center
+}
+.circular.inverted.twitter.icon, .circular.inverted.linkedin.icon, .circular.inverted.mail.icon{
+	color: #FF4700 !important;
+	background-color: white !important;
+}
+.corner.add.icon{
+	color: #FF4700;
+}
+.text-center{
+	text-align: center;
+}
+h2.ui.header {
+    color: white !important;
+}
+.one img {
+    float: left;
+    /* border-radius: 10px; */
+    height: 290px;
+    position: absolute;
+    /* margin-right: 10px; */
+    top: 30px;
+    left: -10px;
+}
+.two .ui.statistics .statistic .value {
+  color: white;
+}
+.two .ui.statistics .statistic .label {
+  color: white;
+}
+.two .ui.horizontal.list {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.two .ui.horizontal.list .item .header {
+  color: white;
+}
+.putmid {
+  width: 705px;
+  margin: auto !important;
+}
+.info {
+  width: 200px;
+  /* float: right; */
+  display: inline-block;
+  margin-left: 10px;
+}
+.bg2 {
+  background: url('assets/img/398391.jpg');
+  margin-top: -63px !important;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+}
+.bg3 {
+  background: url('assets/img/523844.jpg');
+  margin-top: -63px !important;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+}
+.bg4{
+	background: url('assets/img//xmen10.jpg');
+  margin-top: -63px !important;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+.about {
+    width: 495px;
+    height: 225px;
+    border-left: 1px solid #FF4700;
+    border-right: 1px solid #FF4700;
+    float: left;
+    padding: 0px 20px 0px 20px;
+    margin-left: 235px;
+}
+.about em, .info p strong {
+  color: #FF4700;
+}
+.info i {
+  float: left;
+  color: #FF4700;
+  padding-top: 6px;
+}

@@ -1,0 +1,132 @@
+* {
+	font-family: "Titillium Web", fantasy;
+
+	font-size: 12px;
+}
+body {
+	width: 854px !important;
+	border-top: 20px solid rgb(83, 109, 217);
+}
+
+.skill {
+	background-color: #ddd;
+	padding: 2px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 28px;
+	margin: 1px;
+}
+
+.pagebreak {
+	page-break-before: always;
+}
+
+.box-shadow {
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.title {
+	font-size: 48px;
+	font-family: Montserrat, sans-serif;
+	line-height: 10px;
+	margin-left: 10px;
+}
+.subtitle {
+	font-size: 24px;
+	line-height: 10px;
+	margin-left: 10px;
+}
+
+table {
+	margin-left: 10px;
+}
+
+.content {
+	border-bottom: 20px solid #536dd9;
+}
+
+.pure-u-7-24 {
+	background: rgba(206, 206, 255, 0.31);
+}
+
+.sidebar {
+	height: 985px;
+}
+
+td {
+	padding-right: 15px;
+	font-size: 12px;
+}
+.td-main {
+	font-weight: 600;
+}
+.heading {
+	margin-top: 0px;
+	padding: 12px;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 0px;
+	border-bottom: 1px dashed rgb(83, 109, 217);
+}
+
+.call-me {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.title-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.call-me > div {
+	width: 140px;
+	height: 140px;
+	position: relative;
+	margin-bottom: -140px;
+	border-radius: 100%;
+	background: rgba(171, 171, 245, 0.35);
+	z-index: 99;
+}
+
+.call-me > img {
+	width: 140px;
+	border-radius: 100%;
+	filter: grayscale(100%);
+	opacity: 0.8;
+}
+
+.box {
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box-flex {
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.orange {
+	color: rgb(83, 109, 217);
+}
+.headline {
+	font-size: 13px;
+	font-weight: 600;
+}
+.date {
+	padding: 2px 15px 2px 15px;
+	background-color: rgb(83, 109, 217);
+	margin-left: 25px;
+	border-radius: 5px;
+}
+.other {
+	font-size: 10px;
+}
