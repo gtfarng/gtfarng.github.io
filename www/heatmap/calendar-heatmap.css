@@ -1,0 +1,15 @@
+.month-name,
+.calendar-heatmap-legend-text,
+.day-initial {
+  font-size: 10px;
+}
+.day-cell-tooltip {
+  position: absolute;
+  z-index: 9999;
+  padding: 5px 9px;
+  color: #e6ebf1;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 3px;
+  text-align: center;
+}

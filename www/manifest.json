@@ -1,0 +1,15 @@
+{
+  "name": "Natalie Marleny — Portfolio",
+  "short_name": "nataliemarleny",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "theme_color": "#f6c102",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./assets/favicon.png",
+      "sizes": "107x108",
+      "type": "image/png"
+    }
+  ]
+}
